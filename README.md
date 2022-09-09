@@ -21,3 +21,4 @@ https://oen-blog.tistory.com/107
   git push -f origin 브랜치이름(ex git push -f origin feature/Index-Page-Setup)
   force push로 깃헙에 강제로 push한다.
   
+
