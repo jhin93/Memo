@@ -21,5 +21,6 @@ https://oen-blog.tistory.com/107
   git push -f origin 브랜치이름(ex git push -f origin feature/Index-Page-Setup)
   force push로 깃헙에 강제로 push한다.
   
-git pull 에러    
+git pull 에러  
+https://sanghye.tistory.com/43  
 https://velog.io/@s_yeah/Git-git-pull-error-%EB%B8%8C%EB%9E%9C%EC%B9%98-merge%ED%95%A0-%EB%95%8C-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%97%90%EB%9F%AC  
