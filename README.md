@@ -38,4 +38,3 @@ https://velog.io/@s_yeah/Git-git-pull-error-%EB%B8%8C%EB%9E%9C%EC%B9%98-merge%ED
 
 
 
-
