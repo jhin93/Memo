@@ -30,7 +30,8 @@ https://oen-blog.tistory.com/107
 https://sanghye.tistory.com/43  
 https://velog.io/@s_yeah/Git-git-pull-error-%EB%B8%8C%EB%9E%9C%EC%B9%98-merge%ED%95%A0-%EB%95%8C-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%97%90%EB%9F%AC  
 
-
+location is not defined. 
+https://lemontia.tistory.com/1025  
 
 
 
