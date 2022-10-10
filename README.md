@@ -35,7 +35,6 @@ https://lemontia.tistory.com/1025
 
 
 
-
 코인베이스 api key, api secret 사파리에서 확인할 것
 https://github.com/coinbase/coinbase-php/issues/171
 
