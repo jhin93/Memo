@@ -73,7 +73,8 @@ https://lemontia.tistory.com/1025
 
 
 
-
+삭제 혹은 롤백을 되돌리는 방법
+https://github.com/occidere/TIL/issues/145
 
 
 
