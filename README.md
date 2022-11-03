@@ -81,8 +81,8 @@ https://github.com/occidere/TIL/issues/145
 https://products.aspose.app/pdf/ko/conversion/png-to-svg
 
 
-
-
+맥 기타용량 확보
+https://macpaw.com/ko/how-to/clean-up-other-storage-on-mac
 
 
 
