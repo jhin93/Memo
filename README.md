@@ -60,6 +60,14 @@ https://oen-blog.tistory.com/107
   force push로 깃헙에 강제로 push한다.
   
 ### git pull 에러.  
+
+강제로 pull 실행.
+
+  1. git fetch --all
+  2. git reset --hard origin/pull 받으려는 로컬 브랜치 이름
+  3. git pull
+(https://mosei.tistory.com/entry/GIT-git-pull-%EC%8B%9C-merge-%EC%98%A4%EB%A5%98%EA%B0%80-%EB%82%A0%EB%95%8C-%EA%B0%95%EC%A0%9C-git-pull-%EB%8D%AE%EC%96%B4%EC%93%B0%EA%B8%B0-%EB%B0%A9%EB%B2%95)
+
   --ff-only 기본 옵션  
   $ git config --global pull.ff only  
 
