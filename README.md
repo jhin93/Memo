@@ -94,7 +94,8 @@ https://products.aspose.app/pdf/ko/conversion/png-to-svg
 https://macpaw.com/ko/how-to/clean-up-other-storage-on-mac
 
 
-
+웹스톰 메모리 늘리기
+https://goddaehee.tistory.com/246
 
 
 
