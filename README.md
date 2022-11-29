@@ -95,6 +95,7 @@ https://macpaw.com/ko/how-to/clean-up-other-storage-on-mac
 
 
 웹스톰 메모리 늘리기
+https://www.jetbrains.com/help/idea/2016.2/increasing-memory-heap.html
 https://goddaehee.tistory.com/246
 
 
