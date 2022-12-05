@@ -100,7 +100,8 @@ https://goddaehee.tistory.com/246
 
 
 
-
+퍼센트 계산기(카드 UI만들때 사용 가능)
+https://calculator.asamaru.net/%EA%B3%84%EC%82%B0%EA%B8%B0/%EC%9D%BC%EB%B0%98/%ED%8D%BC%EC%84%BC%ED%8A%B8-%EA%B3%84%EC%82%B0/
 
 
 
