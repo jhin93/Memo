@@ -103,8 +103,61 @@ https://goddaehee.tistory.com/246
 퍼센트 계산기(카드 UI만들때 사용 가능)
 https://calculator.asamaru.net/%EA%B3%84%EC%82%B0%EA%B8%B0/%EC%9D%BC%EB%B0%98/%ED%8D%BC%EC%84%BC%ED%8A%B8-%EA%B3%84%EC%82%B0/
 
+에릭 가변 그리드 예시 코드.  
+import Image from 'next/image' 해야 함.  
 
-
+<div style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(2, 1fr)",
+                    justifyContent: "center",
+                    gap: "2em",
+                    margin: "10%"
+                }}>
+                    <Image
+                        alt="Next.js logo"
+                        src="/Img/thumb2_idx9.png"
+                        width={496}
+                        height={724}
+                        style={{
+                            maxWidth: '100%',
+                            height: 'auto',
+                        }}
+                        loading="lazy"
+                    />
+                    <Image
+                        alt="Next.js logo"
+                        src="/Img/thumb2_idx9.png"
+                        width={496}
+                        height={724}
+                        style={{
+                            maxWidth: '100%',
+                            height: 'auto',
+                        }}
+                        loading="lazy"
+                    />
+                    <Image
+                        alt="Next.js logo"
+                        src="/Img/thumb2_idx9.png"
+                        width={496}
+                        height={724}
+                        style={{
+                            maxWidth: '100%',
+                            height: 'auto',
+                        }}
+                        loading="lazy"
+                    />
+                    <Image
+                        alt="Next.js logo"
+                        src="/Img/thumb2_idx9.png"
+                        width={496}
+                        height={724}
+                        style={{
+                            maxWidth: '100%',
+                            height: 'auto',
+                        }}
+                        loading="lazy"
+                    />
+                </div>
 
 
 
