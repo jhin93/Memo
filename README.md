@@ -105,8 +105,8 @@ https://calculator.asamaru.net/%EA%B3%84%EC%82%B0%EA%B8%B0/%EC%9D%BC%EB%B0%98/%E
 
 에릭 가변 그리드 예시 코드.  
 import Image from 'next/image' 해야 함.  
-
-<div style={{
+```
+                <div style={{
                     display: "grid",
                     gridTemplateColumns: "repeat(2, 1fr)",
                     justifyContent: "center",
@@ -158,7 +158,7 @@ import Image from 'next/image' 해야 함.
                         loading="lazy"
                     />
                 </div>
-
+```
 
 
 
