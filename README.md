@@ -1,6 +1,7 @@
 # Memo
 
 ### 깃 원격 브랜치 가져오기  
+만약 원격 저장소의 feature/create-meeting branch를 가져오고 싶다면, $ git checkout -t origin/feature/create-meeting 처럼 하면 된다.
 https://cjh5414.github.io/get-git-remote-branch/  
 
   로컬에서 원격 브랜치 상황 동기화하기  
