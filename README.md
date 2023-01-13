@@ -171,10 +171,21 @@ ex -Xmx4096m -> -Xmx8192m
 
 
 
+Provider 란?
+https://pekahblog.tistory.com/187
 
 
+클라이언트를 통해 이더리움 네트워크에 접근할 수 있도록 제공된 Javascript 객체(Object)
 
+ 
 
+https://docs.metamask.io/guide/ethereum-provider.html 접속하여 개발자 도구 켜기
+
+ 
+
+1. Ethereum Provider(인스턴스) 확인
+
+콘솔창에 ethereum 작성
 
 
 
