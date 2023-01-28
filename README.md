@@ -188,5 +188,11 @@ https://docs.metamask.io/guide/ethereum-provider.html 접속하여 개발자 도
 콘솔창에 ethereum 작성
 
 
+npm install 에러
+메시지 : This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!  
+해결 : https://velog.io/@whoyoung90/TIL-25-WECODE-React-LUSH-Cloning-npm-install%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0  
+'npm install --global npm' 실행하여 npm 버전 맞추기  
+
+
 
 
