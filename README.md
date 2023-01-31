@@ -194,3 +194,4 @@ npm install 에러
 'npm install --global npm' 실행하여 npm 버전 맞추기  
 
 
+
