@@ -185,3 +185,9 @@ npm install 에러
 해결 : https://velog.io/@whoyoung90/TIL-25-WECODE-React-LUSH-Cloning-npm-install%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0  
 'npm install --global npm' 실행하여 npm 버전 맞추기  
 
+
+error - SyntaxError: Unexpected token o in JSON at position 1
+ -> // nft.metadata = JSON.parse(nft.metadata);
+위 구문을 삭제함으로써 해결. 즉, JSON.parse 메소드를 적용하지 않는 것.
+
+
