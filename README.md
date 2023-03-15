@@ -56,6 +56,9 @@ https://cjh5414.github.io/get-git-remote-branch/
   
 ### git pull 에러.  
 
+git rebase  
+https://firework-ham.tistory.com/12  
+
 강제로 pull 실행.
 
   1. git fetch --all
