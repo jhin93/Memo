@@ -193,4 +193,7 @@ error - SyntaxError: Unexpected token o in JSON at position 1
  -> // nft.metadata = JSON.parse(nft.metadata);
 위 구문을 삭제함으로써 해결. 즉, JSON.parse 메소드를 적용하지 않는 것.
 
-P
+npm i  
+노드 모듈 중 변경된 것만 설치  
+
+
