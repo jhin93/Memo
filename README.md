@@ -196,3 +196,5 @@ error - SyntaxError: Unexpected token o in JSON at position 1
 npm i  
 노드 모듈 중 변경된 것만 설치  
 
+
+
