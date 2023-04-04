@@ -196,4 +196,21 @@ error - SyntaxError: Unexpected token o in JSON at position 1
 npm i  
 노드 모듈 중 변경된 것만 설치  
 
+fatal: Not possible to fast-forward, aborting. 에러 해결 
+https://velog.io/@eunddodi/Not-possible-to-fast-forward-aborting.-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0 
+
+<img width="784" alt="스크린샷 2023-04-04 오전 10 12 12" src="https://user-images.githubusercontent.com/55314087/229660579-a042e8e6-49fa-4d44-be37-2b2b7990b615.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
