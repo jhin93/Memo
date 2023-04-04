@@ -205,8 +205,9 @@ https://velog.io/@eunddodi/Not-possible-to-fast-forward-aborting.-%EC%97%90%EB%9
 <img width="784" alt="스크린샷 2023-04-04 오전 10 12 12" src="https://user-images.githubusercontent.com/55314087/229660579-a042e8e6-49fa-4d44-be37-2b2b7990b615.png">
 
 
+서버에서의 이미지 다운로드 예제 코드  
 
-
+<img width="663" alt="스크린샷 2023-04-04 오후 1 41 45" src="https://user-images.githubusercontent.com/55314087/229688818-a044c9d8-9750-49b0-8a11-c5077fd0c694.png">
 
 
 
