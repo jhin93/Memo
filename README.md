@@ -210,5 +210,31 @@ https://velog.io/@eunddodi/Not-possible-to-fast-forward-aborting.-%EC%97%90%EB%9
 <img width="663" alt="스크린샷 2023-04-04 오후 1 41 45" src="https://user-images.githubusercontent.com/55314087/229688818-a044c9d8-9750-49b0-8a11-c5077fd0c694.png">
 
 
+객체 내부에서 밸류값이 빈 키값만 골라내기
+```
+const obj = {
+  key1: 'value1',
+  key2: '',
+  key3: null,
+  key4: undefined,
+  key5: 0,
+  key6: false
+};
+
+const emptyKeys = Object.keys(obj).filter(key => !obj[key]);
+
+console.log(emptyKeys); // ['key2', 'key3', 'key4', 'key5', 'key6']
+```
+객체 내부에서 밸류값이 빈 키값만 골라내기 + 그 와중에 특정 키값은 배제하기
+
+```
+const arr = [1, 2, 3, 4, 5, 6];
+const excludedValue = 3;
+
+const filteredArr = arr.filter((value) => value !== excludedValue);
+
+console.log(filteredArr); // [1, 2, 4, 5, 6]
+
+```
 
 
