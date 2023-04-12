@@ -236,3 +236,5 @@ const filteredArr = arr.filter((value) => value !== excludedValue);
 console.log(filteredArr); // [1, 2, 4, 5, 6]
 
 ```
+
+
