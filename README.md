@@ -238,3 +238,6 @@ console.log(filteredArr); // [1, 2, 4, 5, 6]
 ```
 
 
+transaction status : '1' = 성공  
+transaction status : '0' = 실패  
+https://github.com/ethereum/go-ethereum/issues/21254  
