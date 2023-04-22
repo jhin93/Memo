@@ -243,4 +243,3 @@ transaction status : '0' = 실패
 https://github.com/ethereum/go-ethereum/issues/21254  
 
 
-
