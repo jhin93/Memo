@@ -243,4 +243,5 @@ transaction status : '0' = 실패
 https://github.com/ethereum/go-ethereum/issues/21254  
 
 
-
+이미지 배경 없애주는 사이트  
+https://www.remove.bg/upload  
