@@ -245,3 +245,10 @@ https://github.com/ethereum/go-ethereum/issues/21254
 
 이미지 배경 없애주는 사이트  
 https://www.remove.bg/upload  
+
+솔라나 익스플로러에서 ipfs 링크 확인하는 법 
+Config Lines 찾아서 expand
+https://explorer.solana.com/tx/5MoZyPw45Kk34bXBRa8xwbUBSJPTwCgbCBgbD4C7QkSbWv6JcSGGJewW6E8GJXWyrbj6XbqsdXcnkawWW5dJhZ6P?cluster=devnet 
+
+솔라나 nft 메타데이터 예시  
+https://ipfs.thirdwebcdn.com/ipfs/QmfXmJRotrj9aQLSmWWj9oyisHmrJ2N1y1cRATjKTKDrv3/0  
