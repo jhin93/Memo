@@ -254,7 +254,12 @@ https://explorer.solana.com/tx/5MoZyPw45Kk34bXBRa8xwbUBSJPTwCgbCBgbD4C7QkSbWv6Jc
 https://ipfs.thirdwebcdn.com/ipfs/QmfXmJRotrj9aQLSmWWj9oyisHmrJ2N1y1cRATjKTKDrv3/0  
 
 
+컴파일과 빌드의 차이
+http://twinbraid.blogspot.com/2015/02/blog-post.html
 
+
+이벤트 버블링, 캡처링
+https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%BA%A1%EC%B3%90---event-capture
 
 
 
