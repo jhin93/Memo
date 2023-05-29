@@ -257,6 +257,15 @@ https://ipfs.thirdwebcdn.com/ipfs/QmfXmJRotrj9aQLSmWWj9oyisHmrJ2N1y1cRATjKTKDrv3
 컴파일과 빌드의 차이
 http://twinbraid.blogspot.com/2015/02/blog-post.html
 
+이더리움이란
+https://brunch.co.kr/@banksalad/287
+
+공부한 사람의 기록
+https://medium.com/%EC%95%8C%EC%93%B8%EC%8B%A0%EB%B8%94/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C-tomjeong-e5783c9dad8f
+
+이더리움 하이퍼레져 비교
+https://steemit.com/blockchain/@belew/ibm
+https://xenoria.tistory.com/3
 
 이벤트 버블링, 캡처링
 https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%BA%A1%EC%B3%90---event-capture
