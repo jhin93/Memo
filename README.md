@@ -270,8 +270,8 @@ https://xenoria.tistory.com/3
 이벤트 버블링, 캡처링
 https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%BA%A1%EC%B3%90---event-capture
 
-
-
+vscode 줄바꿈 에러  
+https://tamagotch.tistory.com/123  
 
 
 
