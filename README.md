@@ -278,6 +278,3 @@ https://tamagotch.tistory.com/123
 
 
 
-
-
-
