@@ -275,6 +275,16 @@ https://tamagotch.tistory.com/123
 
 
 
+nodeJS 기본버전 변경(https://hyung1.tistory.com/66)  
+```
+nvm alias default v버전
+ex) nvm alias default v18.16.0
+```
+
+
+
+
+
 
 
 
