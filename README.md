@@ -281,6 +281,8 @@ nvm alias default v버전
 ex) nvm alias default v18.16.0
 ```
 
+docker history 시간포함 출력 명령어  
+history -E 1  
 
 
 
