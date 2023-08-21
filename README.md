@@ -281,20 +281,8 @@ nvm alias default v버전
 ex) nvm alias default v18.16.0
 ```
 
-터미널 history 시간포함 출력 명령어  
-```
-history -E 1
-```
-
-ssh history 시간포함 출력 명령어  
-```
-1. HISTTIMEFORMAT="%F %T  "
-2. history
-```
-ssh 접속 후 위 순서대로 입력
-
-
-
+git pull 취소 명령어  
+https://2vup.com/git-cancel/  
 
 
 
