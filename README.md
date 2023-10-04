@@ -253,7 +253,11 @@ git pull 취소 명령어
 https://2vup.com/git-cancel/  
 
 
-
+삼항연산자 예시  
+```javascript
+let contractAddress = input && input.contractAddr ? input.contractAddr : process.env.TBA_NFT_CONTRACT;
+let nftTokenId = input && input.tokenId ? input.tokenId : "0";
+```
 
 
 
