@@ -262,4 +262,3 @@ let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 
 
 
-
