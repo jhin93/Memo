@@ -259,5 +259,3 @@ let contractAddress = input && input.contractAddr ? input.contractAddr : process
 let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 ```
 
-
-
