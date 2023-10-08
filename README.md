@@ -258,4 +258,3 @@ https://2vup.com/git-cancel/
 let contractAddress = input && input.contractAddr ? input.contractAddr : process.env.TBA_NFT_CONTRACT;
 let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 ```
-
