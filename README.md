@@ -259,6 +259,8 @@ let contractAddress = input && input.contractAddr ? input.contractAddr : process
 let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 ```
 
+
+
 react-redux 라이브러리 버전 충돌 에러 해결  
 https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-redux-dependency  
 
