@@ -267,7 +267,7 @@ https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-
 generator 함수  
 
 제너레이터 함수를 정의하려면 함수 선언문 앞에 function* 구문을 사용합니다. 아래는 제너레이터 함수의 기본 구조입니다  
-```
+```typescript
 function* myGenerator() {
     // 제너레이터 함수의 본문
     yield 1;
@@ -276,7 +276,7 @@ function* myGenerator() {
 }
 ```
 제너레이터 함수를 호출하면, 제너레이터 객체가 반환됩니다. 이 객체는 이터러블하며, 'next()' 메서드를 사용하여 값을 하나씩 추출할 수 있습니다. 'next()' 메서드는 제너레이터 함수 실행을 일시 중단하고 yield에서 반환된 값을 포함하는 객체를 반환합니다. 다음은 제너레이터 함수를 사용하는 예시입니다.  
-```
+```typescript
 const myIterator = myGenerator();
 
 console.log(myIterator.next()); // { value: 1, done: false }
