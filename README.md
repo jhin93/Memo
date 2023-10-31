@@ -262,10 +262,8 @@ let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 react-redux 라이브러리 버전 충돌 에러 해결  
 https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-redux-dependency  
 
-
-
-
-
+  
+  
 generator 함수  
 
 제너레이터 함수를 정의하려면 함수 선언문 앞에 function* 구문을 사용합니다. 아래는 제너레이터 함수의 기본 구조입니다  
