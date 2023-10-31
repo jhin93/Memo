@@ -264,6 +264,8 @@ https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-
 
 
 
+
+
 generator 함수  
 
 제너레이터 함수를 정의하려면 함수 선언문 앞에 function* 구문을 사용합니다. 아래는 제너레이터 함수의 기본 구조입니다  
