@@ -259,11 +259,40 @@ let contractAddress = input && input.contractAddr ? input.contractAddr : process
 let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 ```
 
-
-
-
-
-
 react-redux 라이브러리 버전 충돌 에러 해결  
 https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-redux-dependency  
+
+
+
+generator 함수  
+
+제너레이터 함수를 정의하려면 함수 선언문 앞에 function* 구문을 사용합니다. 아래는 제너레이터 함수의 기본 구조입니다  
+```
+function* myGenerator() {
+    // 제너레이터 함수의 본문
+    yield 1;
+    yield 2;
+    yield 3;
+}
+```
+제너레이터 함수를 호출하면, 제너레이터 객체가 반환됩니다. 이 객체는 이터러블하며, 'next()' 메서드를 사용하여 값을 하나씩 추출할 수 있습니다. 'next()' 메서드는 제너레이터 함수 실행을 일시 중단하고 yield에서 반환된 값을 포함하는 객체를 반환합니다. 다음은 제너레이터 함수를 사용하는 예시입니다.  
+```
+const myIterator = myGenerator();
+
+console.log(myIterator.next()); // { value: 1, done: false }
+console.log(myIterator.next()); // { value: 2, done: false }
+console.log(myIterator.next()); // { value: 3, done: false }
+console.log(myIterator.next()); // { value: undefined, done: true }
+```
+'done' 속성은 제너레이터 함수의 실행이 완료되었는지 여부를 나타내며, 'value' 속성은 yield 키워드에서 반환된 값을 나타냅니다.  
+제너레이터 함수는 비동기 코드와 함께 사용되어 복잡한 비동기 흐름을 관리하거나, 이터레이션을 필요한 순간에 수행하도록 하는데 유용합니다. 이를 통해 코드를 더욱 가독성 있고 효율적으로 작성할 수 있습니다.  
+
+
+
+
+
+
+
+
+
 
