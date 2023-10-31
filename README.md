@@ -290,9 +290,40 @@ console.log(myIterator.next()); // { value: undefined, done: true }
 
 
 
+'takeLast' 메소드  
+redux-saga에서 takeLatest는 Redux 액션을 감시하고 해당 액션이 발생할 때 비동기 작업을 실행하는 Redux Saga 이펙트 중 하나입니다. takeLatest를 사용하면 이전에 시작된 비동기 작업이 완료되기를 기다리지 않고 가장 최근의 액션만 처리됩니다. 이를 통해 여러 번 중복으로 액션이 디스패치되더라도, 이전 작업이 아직 완료되지 않은 경우에는 가장 최근의 액션만을 처리합니다.  
+```
+import { takeLatest, put, call } from 'redux-saga/effects';
 
+// Redux 액션을 감시하고 비동기 작업을 실행하는 함수
+function* mySaga(action) {
+  try {
+    // 비동기 작업 실행 (예: API 호출)
+    const result = yield call(someAsyncFunction, action.payload);
 
+    // 성공한 경우 Redux 액션을 디스패치
+    yield put({ type: 'SUCCESS_ACTION', payload: result });
+  } catch (error) {
+    // 에러 처리
+    yield put({ type: 'FAILURE_ACTION', error: error.message });
+  }
+}
 
+// Redux 액션을 감시하는 부분
+function* watchMyAction() {
+  yield takeLatest('MY_ACTION', mySaga);
+}
+
+export default function* rootSaga() {
+  yield all([
+    watchMyAction(),
+    // 다른 액션들을 추가할 수 있음
+  ]);
+}
+```
+위 코드에서 takeLatest는 'MY_ACTION' 타입의 Redux 액션을 감시하고, 이 액션이 발생할 때 mySaga 함수를 호출합니다. mySaga 함수에서 비동기 작업을 수행하고, 그 결과에 따라 성공 또는 실패 액션을 디스패치합니다. takeLatest는 중복된 액션을 감시하더라도 가장 최근의 액션만을 처리하므로, 비동기 작업의 중복 실행을 방지하는 데 유용합니다.  
+
+이를 통해 Redux Saga는 비동기 작업을 효과적으로 관리하고 Redux 액션과 통신하여 Redux 스토어의 상태를 업데이트할 수 있습니다.  
 
 
 
