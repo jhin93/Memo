@@ -327,8 +327,37 @@ export default function* rootSaga() {
 
 
 
+yield.  
+yield는 Generator 함수 내에서 사용되는 키워드로, 제어를 호출자에게 반환하고 함수의 상태를 일시 중지하는 데 사용됩니다.  
+Generator 함수는 일반 함수와는 다르게 실행을 일시 중지하고 값을 반환한 다음 중지된 지점에서 다시 시작할 수 있습니다.  
+Redux Saga에서 yield는 주로 비동기 작업을 수행하고 그 결과를 기다리는 데 사용됩니다. 예를 들어, API 요청을 보내고 응답을 기다리거나, 특정 액션이 발생할 때까지 기다리는 데 사용됩니다.  
+  
+```javascript
+function* exampleGenerator() {
+  const result = yield someAsyncFunction();
+  console.log(result);
+}
+```
 
+all.  
+all은 Redux Saga에서 사용되는 특별한 함수로, 여러 Saga 이펙트를 병렬로 실행할 때 사용됩니다.  
+여러 Saga 이펙트를 배열로 전달하면 all은 이들을 동시에 시작하고 모든 작업이 완료될 때까지 기다립니다. 즉, 병렬 실행을 지원합니다.  
+만약 여러 비동기 작업이 독립적으로 실행될 수 있고 다른 작업의 결과를 기다리지 않아도 되는 경우에 유용합니다.  
 
+```javascript
+import { all, call, put, takeEvery } from 'redux-saga/effects';
+
+function* fetchData() {
+  // 독립적으로 실행되는 두 개의 API 요청
+  yield all([call(apiRequest1), call(apiRequest2)]);
+  // 두 요청이 완료된 후 다음 작업을 수행
+  yield put({ type: 'DATA_FETCHED' });
+}
+
+function* rootSaga() {
+  yield takeEvery('FETCH_DATA', fetchData);
+}
+```
 
 
 
