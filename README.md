@@ -360,5 +360,9 @@ function* rootSaga() {
 ```
 
 
+PR에 올라간 커밋 취소하기
+
+1. 이전 커밋으로 되돌리기 :  git reset HEAD~1
+2. 따로 되돌리기 없이 원격으로 푸쉬 : git push origin 원격브랜치 --force
 
 
