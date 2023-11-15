@@ -234,37 +234,69 @@ https://medium.com/%EC%95%8C%EC%93%B8%EC%8B%A0%EB%B8%94/%EB%B8%94%EB%A1%9D%EC%B2
 https://steemit.com/blockchain/@belew/ibm
 https://xenoria.tistory.com/3
 
-이벤트 버블링, 캡처링
+<br/>
+<br/>
+
+
+### 이벤트 버블링, 캡처링
 https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%BA%A1%EC%B3%90---event-capture
 
-vscode 줄바꿈 에러  
+<br/>
+<br/>
+
+
+### vscode 줄바꿈 에러  
 https://tamagotch.tistory.com/123  
 
 
+<br/>
+<br/>
 
-nodeJS 기본버전 변경(https://hyung1.tistory.com/66)  
+
+
+### nodeJS 기본버전 변경(https://hyung1.tistory.com/66)  
 ```
 nvm alias default v버전
 ex) nvm alias default v18.16.0
 ```
 
+<br/>
+<br/>
 
-git pull 취소 명령어  
+
+
+### git pull 취소 명령어  
 https://2vup.com/git-cancel/  
 
 
-삼항연산자 예시  
+<br/>
+<br/>
+
+
+
+### 삼항연산자 예시  
 ```javascript
 let contractAddress = input && input.contractAddr ? input.contractAddr : process.env.TBA_NFT_CONTRACT;
 let nftTokenId = input && input.tokenId ? input.tokenId : "0";
 ```
 
-react-redux 라이브러리 버전 충돌 에러 해결  
+
+<br/>
+<br/>
+
+
+
+### react-redux 라이브러리 버전 충돌 에러 해결  
 https://stackoverflow.com/questions/64529958/error-when-trying-to-install-react-redux-dependency  
 
+
   
+<br/>
+<br/>
+
+
   
-generator 함수  
+### generator 함수  
 
 제너레이터 함수를 정의하려면 함수 선언문 앞에 function* 구문을 사용합니다. 아래는 제너레이터 함수의 기본 구조입니다  
 ```typescript
@@ -289,8 +321,12 @@ console.log(myIterator.next()); // { value: undefined, done: true }
 
 
 
+<br/>
+<br/>
 
-'takeLast' 메소드  
+
+
+### 'takeLast' 메소드  
 redux-saga에서 takeLatest는 Redux 액션을 감시하고 해당 액션이 발생할 때 비동기 작업을 실행하는 Redux Saga 이펙트 중 하나입니다. takeLatest를 사용하면 이전에 시작된 비동기 작업이 완료되기를 기다리지 않고 가장 최근의 액션만 처리됩니다. 이를 통해 여러 번 중복으로 액션이 디스패치되더라도, 이전 작업이 아직 완료되지 않은 경우에는 가장 최근의 액션만을 처리합니다.  
 ```
 import { takeLatest, put, call } from 'redux-saga/effects';
@@ -327,7 +363,11 @@ export default function* rootSaga() {
 
 
 
-yield.  
+<br/>
+<br/>
+
+
+### yield.  
 yield는 Generator 함수 내에서 사용되는 키워드로, 제어를 호출자에게 반환하고 함수의 상태를 일시 중지하는 데 사용됩니다.  
 Generator 함수는 일반 함수와는 다르게 실행을 일시 중지하고 값을 반환한 다음 중지된 지점에서 다시 시작할 수 있습니다.  
 Redux Saga에서 yield는 주로 비동기 작업을 수행하고 그 결과를 기다리는 데 사용됩니다. 예를 들어, API 요청을 보내고 응답을 기다리거나, 특정 액션이 발생할 때까지 기다리는 데 사용됩니다.  
@@ -339,7 +379,11 @@ function* exampleGenerator() {
 }
 ```
 
-all.  
+<br/>
+<br/>
+
+
+### all.  
 all은 Redux Saga에서 사용되는 특별한 함수로, 여러 Saga 이펙트를 병렬로 실행할 때 사용됩니다.  
 여러 Saga 이펙트를 배열로 전달하면 all은 이들을 동시에 시작하고 모든 작업이 완료될 때까지 기다립니다. 즉, 병렬 실행을 지원합니다.  
 만약 여러 비동기 작업이 독립적으로 실행될 수 있고 다른 작업의 결과를 기다리지 않아도 되는 경우에 유용합니다.  
@@ -362,7 +406,7 @@ function* rootSaga() {
 <br/>
 <br/>
 
-PR에 올라간 커밋 취소하기
+### PR에 올라간 커밋 취소하기
 
 1. 이전 커밋으로 되돌리기 :  git reset HEAD~1
 2. 따로 되돌리기 없이 원격으로 푸쉬 : git push origin 원격브랜치 --force
@@ -370,7 +414,7 @@ PR에 올라간 커밋 취소하기
 <br/>
 <br/>
 
-**Cannot add property 20, object is not extensible 에러 해결**  
+### Cannot add property 20, object is not extensible 에러 해결  
 .push 메소드가 객체나 배열을 동적으로 확장하는게 불가할 때 발생하는 오류.  
   
 "Cannot add property 20, object is not extensible" 에러는 객체에 새로운 프로퍼티를 추가할 때 발생할 수 있는 JavaScript 에러입니다. 이 에러는 객체의 확장이 금지되어 있을 때 발생합니다.
