@@ -364,11 +364,10 @@ PR에 올라간 커밋 취소하기
 
 1. 이전 커밋으로 되돌리기 :  git reset HEAD~1
 2. 따로 되돌리기 없이 원격으로 푸쉬 : git push origin 원격브랜치 --force
-<br/>
-<br/>
-Cannot add property 20, object is not extensible 에러 해결  
-.push 메소드가 객체나 배열을 동적으로 확장하는게 불가할 때 발생하는 오류.
-<br/>
+
+**Cannot add property 20, object is not extensible 에러 해결**  
+.push 메소드가 객체나 배열을 동적으로 확장하는게 불가할 때 발생하는 오류.  
+  
 "Cannot add property 20, object is not extensible" 에러는 객체에 새로운 프로퍼티를 추가할 때 발생할 수 있는 JavaScript 에러입니다. 이 에러는 객체의 확장이 금지되어 있을 때 발생합니다.
 객체는 기본적으로 확장 가능(Extensible)한데, 이는 새로운 프로퍼티를 동적으로 추가할 수 있다는 것을 의미합니다. 그러나 객체에 대해 Object.preventExtensions(), Object.seal(), Object.freeze() 등의 메소드를 사용하여 확장을 금지하면 해당 객체에 새로운 프로퍼티를 추가할 수 없게 됩니다.
 이 에러가 .push() 메소드에 의해 발생하는 경우, 보통 배열의 길이를 동적으로 확장하면서 발생합니다. .push() 메소드는 배열에 새로운 요소를 추가하고 배열의 길이를 증가시키는데, 이때 배열이 확장 불가능하다면 에러가 발생합니다.
