@@ -359,11 +359,16 @@ function* rootSaga() {
 }
 ```
 
+<br/>
+<br/>
 
 PR에 올라간 커밋 취소하기
 
 1. 이전 커밋으로 되돌리기 :  git reset HEAD~1
 2. 따로 되돌리기 없이 원격으로 푸쉬 : git push origin 원격브랜치 --force
+
+<br/>
+<br/>
 
 **Cannot add property 20, object is not extensible 에러 해결**  
 .push 메소드가 객체나 배열을 동적으로 확장하는게 불가할 때 발생하는 오류.  
