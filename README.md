@@ -476,8 +476,15 @@ function* rootSaga() {
 <img width="1134" alt="스크린샷 2023-11-29 오전 11 05 56" src="https://github.com/jhin93/Memo/assets/55314087/594023af-fc99-46ca-a863-77c865869ed6">
 
 
+<br/>
+<br/>
 
-
+### Spread Syntax 
+```
+let numbers = [1, 2, 3, 4, 5];
+let maxNumber = Math.max(...numbers);
+console.log(maxNumber); // 출력: 5
+```
 
 
 
