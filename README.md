@@ -494,5 +494,3 @@ console.log(maxNumber); // 출력: 5
 
 
 
-
-
