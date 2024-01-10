@@ -495,6 +495,24 @@ console.log(maxNumber); // 출력: 5
 2. 해당 브랜치에서 git checkout origin/원격브랜치 -- 파일명.tsx 실행
 ```
 
+<br/>
+<br/>
+
+### 새로고침 시 pagination 유지 방법.
+
+1. import { useHistory } from 'react-router-dom';
+2. const history = useHistory();
+3. const queries = history.location.search;
+4. queries 변수를 파싱해서 필요한 부분을 찾아냄.
+5. 찾아낸 부분을 변수(ex const index;)에 담음
+6. 해당 부분을 아래처럼 useEffect 훅 내에서 처리
+```
+const [currentPageIndex, setCurrentPageIndex] = useState<number>(pageNo ?? 1);
+useEffect(() => {
+  setCurrentPageIndex(index);
+}, [])
+```
+7. 새로고침 시 위 useEffect 훅이 현재 페이지 내부 필요한 정보를 가져와서 새로고침 할 때 url에 반영.
 
 
 
