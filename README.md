@@ -486,7 +486,14 @@ let maxNumber = Math.max(...numbers);
 console.log(maxNumber); // 출력: 5
 ```
 
+<br/>
+<br/>
 
+### 특정 원격 브랜치의 특정 파일 로컬 브랜치로 받기
+```
+1. 로컬 브랜치로 이동
+2. 해당 브랜치에서 git checkout origin/원격브랜치 -- 파일명.tsx 실행
+```
 
 
 
