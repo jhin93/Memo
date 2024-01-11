@@ -515,7 +515,12 @@ useEffect(() => {
 7. 새로고침 시 위 useEffect 훅이 현재 페이지 내부 필요한 정보를 가져와서 새로고침 할 때 url에 반영.
 
 
+<br/>
+<br/>
 
-
+### Typescript '|'와 '||'의 차이
+TypeScript에서 '|'는 타입 유니온(union type)을 나타내는 연산자로 사용됩니다. 이는 변수가 여러 타입 중 하나일 수 있음을 의미합니다. 예를 들어, ListNode | null은 해당 변수가 ListNode 타입이거나 null일 수 있음을 나타냅니다. 반면에, '||'는 논리적 OR 연산자로, 주로 불리언(boolean) 값들 사이의 논리 연산에 사용됩니다. 예를 들어, a || b는 a나 b 중 하나라도 true이면 true를 반환합니다.
+- '|'는 타입 유니온을 정의하는 데 사용됩니다. 예: type MyType = TypeA | TypeB;
+- '||'는 불리언 논리 연산을 수행하는 데 사용됩니다. 예: if (conditionA || conditionB) { ... }
 
 
