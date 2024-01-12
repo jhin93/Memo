@@ -524,3 +524,6 @@ TypeScript에서 '|'는 타입 유니온(union type)을 나타내는 연산자�
 - '||'는 불리언 논리 연산을 수행하는 데 사용됩니다. 예: if (conditionA || conditionB) { ... }
 
 
+
+
+
