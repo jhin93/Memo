@@ -527,3 +527,6 @@ TypeScript에서 '|'는 타입 유니온(union type)을 나타내는 연산자�
 
 
 
+
+
+
