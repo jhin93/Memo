@@ -547,5 +547,22 @@ if (isSubset) {
 따라서 `set1`은 중복을 제거하고 유일한 값들을 저장하는 `Set` 객체입니다.
 
 
+<br/>
+<br/>
 
+#### Map
 
+Map은 자료 구조입니다. Map은 키-값 쌍(key-value pair)을 저장하는데 사용되며, 특정 키에 해당하는 값을 빠르게 검색하고 가져올 수 있도록 설계되어 있습니다. JavaScript, TypeScript, 그리고 다른 프로그래밍 언어에서도 Map을 사용할 수 있습니다.
+Map은 객체(Object)와 유사하게 보일 수 있지만, 몇 가지 중요한 차이점이 있습니다. Map은 어떤 데이터 타입이나 객체를 키로 사용할 수 있으며, 순서가 보장되어 키-값 쌍을 추가한 순서대로 반복됩니다. 또한 Map은 size라는 속성을 통해 저장된 항목의 수를 쉽게 얻을 수 있습니다.
+```typescript
+const charCount = new Map<string, number>();
+
+charCount.set('apple', 5);
+charCount.set('banana', 6);
+charCount.set('cherry', 6);
+
+console.log(charCount.get('apple')); // 5
+console.log(charCount.get('banana')); // 6
+console.log(charCount.size); // 3
+
+```
