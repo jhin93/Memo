@@ -565,4 +565,7 @@ console.log(charCount.get('apple')); // 5
 console.log(charCount.get('banana')); // 6
 console.log(charCount.size); // 3
 
+console.log(charCount.has('apple'));   // true, 'apple' 키가 존재함
+console.log(charCount.has('grape'));   // false, 'grape' 키는 존재하지 않음
+
 ```
