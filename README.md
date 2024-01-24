@@ -573,7 +573,7 @@ console.log(charCount.has('grape'));   // false, 'grape' 키는 존재하지 않
 <br/>
 <br/>
 
-### 숫자 배열 오름차순 정리
+#### 숫자 배열 오름차순 정리
 ```typescript
 let arr3 = [13, 46, 52, 36, 75, 3];
 arr3.sort((a, b) => a - b);
