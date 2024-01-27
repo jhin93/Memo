@@ -573,7 +573,7 @@ console.log(charCount.has('grape'));   // false, 'grape' 키는 존재하지 않
 <br/>
 <br/>
 
-#### 숫자 배열 오름차순 정리
+#### 숫자 배열 오름차순 정리
 ```typescript
 let arr3 = [13, 46, 52, 36, 75, 3];
 arr3.sort((a, b) => a - b);
@@ -583,10 +583,8 @@ arr3.sort((a, b) => a - b);
 <br/>
 <br/>
 
-#### 정규식 확인 사이트
+#### 정규식 확인 사이트
 https://regex101.com/
-
-
 
 
 
