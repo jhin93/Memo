@@ -29,7 +29,6 @@ https://cjh5414.github.io/get-git-remote-branch/
   $ git push origin -d [원격 브랜치 명]  
 
   
-
 <br/>
 <br/>
   
