@@ -591,6 +591,9 @@ arr3.sort((a, b) => a - b);
 https://regex101.com/
 
 
+Lighthouse 웹 성능 감사 자동화  
+https://developer.chrome.com/docs/lighthouse?hl=ko  
+https://velog.io/@dell_mond/Lighthouse-%EC%82%AC%EC%9A%A9%EB%B2%95  
 
 
 
